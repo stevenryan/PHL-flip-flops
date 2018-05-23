@@ -1,0 +1,23 @@
+#menu-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+#menu-img1, #menu-img2, #menu-img3 {
+  height: 400px;
+  background-size: cover;
+}
+#menu-img1 {
+  background-image: url('../images/waffle1.jpeg');
+}
+#menu-img2 {
+  background-image: url('../images/waffle2.jpeg');
+}
+#menu-img3 {
+  background-image: url('../images/waffle3.jpeg');
+}
+#menu-title {
+  grid-column: 1/3;
+}

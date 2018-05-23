@@ -1,7 +1,10 @@
 require "sinatra"
 require "sendgrid-ruby"
 
-get "/" do
+get "/menu" do
+erb :menu
+end
 
+get "/" do
 erb :homepage
 end
