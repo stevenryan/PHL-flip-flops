@@ -1,4 +1,4 @@
-.gridWrapper1 {
+.aboutus-gridWrapper1 {
 
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -9,7 +9,7 @@
 	/*background-image:;*/
 }
 
-.header1 {
+.aboutus-header1 {
 
 	text-align: center;
 	/*border: 2px solid blue;*/
@@ -24,7 +24,7 @@
 	color: yellow;
 	text-shadow: 2px 2px black; 
 }
-.profile1 {
+.aboutus-profile1 {
 	width: 60%;
 	text-align: left;
 	position: relative;
@@ -37,7 +37,7 @@
 
 }
 
-.profile2 {
+.aboutus-profile2 {
 	width: 60%;
 	text-align: left;
 	border: 2px solid green;
@@ -48,7 +48,7 @@
 	border-radius: 30px;
 }
 
-h2 {
+.aboutus h2 {
 	/*border: 2px solid black;*/
 	width: 20%;
 	border-radius: 30px;
@@ -57,7 +57,7 @@ h2 {
 
 
 
-.profile3 {
+.aboutus-profile3 {
 	width: 60%;
 	text-align: left;
 	border: 2px solid orange;
@@ -69,7 +69,7 @@ h2 {
 
 }
 
-.image1 {
+.aboutus-image1 {
 
 	display: inline;
 	/*border: 2px solid red;*/
@@ -78,7 +78,7 @@ h2 {
 
 
 
-.para1 {
+.aboutus-para1 {
 	
 	border: 2px solid black;
 	border-radius: 20px;
@@ -92,7 +92,7 @@ h2 {
 		
 }
 
-.para2 {
+.aboutus-para2 {
 	
 	border: 2px solid black;
 	border-radius: 20px;
@@ -105,7 +105,7 @@ h2 {
 	height: 250px;
 		
 }
-.para3 {
+.aboutus-para3 {
 	
 	border: 2px solid black;
 	border-radius: 20px;
@@ -119,19 +119,49 @@ h2 {
 		
 }
 
-.para1 p {
+.aboutus-para1 p {
 	text-align: left;
 	font-size: 20px;
 	/*word-break: break-all;*/
 	/*word-wrap: break-word;*/
 }
-.para2 p {
+.aboutus-para2 p {
 	text-align: left;
 	font-size: 20px;
 
 }
-.para3 p {
+.aboutus-para3 p {
 	text-align: left;
 	font-size: 20px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
