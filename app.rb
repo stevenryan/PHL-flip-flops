@@ -1,5 +1,5 @@
 require "sinatra"
-require "sendgrid-ruby"
+# require "sendgrid-ruby"
 
 get "/menu" do
 erb :menu
@@ -14,5 +14,5 @@ erb :gallery
 end
 
 get "/aboutus" do
-erb :aboutus
+erb :about
 end
