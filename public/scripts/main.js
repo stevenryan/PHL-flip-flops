@@ -4,9 +4,7 @@ var reserveBtn = document.getElementById('reservebtn')
 var clearBtn = document.getElementById('clearbtn')
 var toDoList = document.getElementById('todolist')
 
-var container = document.getElementById('container')
-
-var name = document.getElementById('name')
+var nameInput = document.getElementById('nameinput')
 var email = document.getElementById('email')
 var number = document.getElementById('number')
 
@@ -71,14 +69,14 @@ reserveBtn.addEventListener('click', function(){
   item.style.backgroundColor = 'orange'
   item.style.padding = '20px'
   item.style.borderRadius = '25px'
-  item.innerHTML = 'Reservation Complete: '+name.value +' '+ email.value +' '+ number.value + ' '+ reserve.value
+  item.innerHTML = 'Reservation Complete: '+nameInput.value +' '+ email.value +' '+ number.value + ' '+ reserve.value
   item.class = 'items'
   // document.body.wrapper.appendChild(item)
   document.body.appendChild(item)
 })
 
 clearBtn.addEventListener('click', function(){
-  name.value = ''
+  nameInput.value = ''
   email.value = ''
   number.value = ''
   reserve.value = ''
