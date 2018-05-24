@@ -1,27 +1,35 @@
-<h1>Make a reservation</h1>
-<h3>Enter your information</h3>
 <div id='todolist'>
+  <h1>Make a reservation</h1>
+  <h3>Enter your information</h3>
   <div id='infoinputs'>
-    <input id='name'type="text" name="" value="" placeholder="Name">
+    <input id='nameinput' type="text" name="" value="" placeholder="name">
     <input id='email' type="text" name="" value="" placeholder="email">
+
     <input id='number' type="text" name="" value="" placeholder="phone number">
   </div>
  <h3>Click to add day and time to reservation</h3>
   <div id="days">
-    <button type="button" class='d' value='Monday'>Monday</button>
-    <button type="button" class='d'value='Tuesday'>Tuesday</button>
-    <button type="button" class='d' value='Wednesday'>Wednesday</button>
-    <button type="button" class='d' value='Thursday'>Thursday</button>
-    <button type="button" class='d' value='Friday'>Friday</button>
+
+    <div  class='days' id='Monday'>Monday</div>
+    <div  class='days' id='Tuesday'>Tuesday</div>
+    <div  class='days' id='Wednesday'>Wednesday</div>
+    <div  class='days' id='Thursday'>Thursday</div>
+    <div  class='days' id='Friday'>Friday</div>
+
   </div>
   <div id="times">
-    <button type="button" class='t'>7-8 AM</button>
-    <button type="button" class='t'>8-9 AM</button>
-    <button type="button" class='t'>9-10 AM</button>
-    <button type="button" class='t'>10-11 AM</button>
-    <button type="button" class='t'>11 AM-12 PM</button>
+
+    <div class='times' id='t1'>7-8 AM</div>
+    <div class='times' id='t2'>8-9 AM</div>
+    <div class='times' id='t3'>9-10 AM</div>
+    <div class='times' id='t4'>10-11 AM</div>
+    <div class='times' id='t5'>11AM-12PM</div>
+
   </div>
   <input id="reserve" type="text" name="" value="">
   <button id='reservebtn'type="button" name="button">Reserve</button>
+  <button id='clearbtn'type="button" name="button">Clear</button>
+
   <div id="reservecomplete"></div>
 </div>
+<script type="text/javascript" src="../scripts/main.js"></script>
