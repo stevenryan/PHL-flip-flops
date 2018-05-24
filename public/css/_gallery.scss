@@ -5,7 +5,7 @@
 	text-align: center;
 	width: 100%;
 	/*background-image: url("gallerypics/summertimeeating.jpg");*/
-	background-color: lightyellow;	 
+	background-color: #9f7e69;	 
 }
 
 .gallery-header2 {
@@ -13,13 +13,16 @@
 	text-align: center;
 	/*border: 2px solid blue;*/
 	height: 70px;
-	width: 90%;
+	width: 100%;
 	grid-row-start: 1;
 	grid-row-end: 2;
 	position: relative;
 	text-decoration: underline;
 	font-size: 30px;
+	color: lightgreen;
 	/*top: 150px;*/
+	text-shadow: 2px 2px black;
+
 }
 
 
@@ -30,11 +33,13 @@
 	/*height: 100px;*/
 	left: 200px;
 	margin-right: 500px;
-	bottom: 300px;
+	bottom: 400px;
 	border: 2px solid purple;
 	height: 400px;
 	background-image: url("../images/summertimeeating.jpg");
 	color: black;
+	// box-shadow: 5px 10px lightgreen;
+
 }
 
 .gallery-Event2{
@@ -44,7 +49,7 @@
 	/*height: 400px;*/
 	left: 200px;
 	margin-right: 500px;
-	bottom: 350px;
+	bottom: 500px;
 	border: 2px solid green;
 	background-image: url("../images/phillycrowd.jpg");
 	background-size: 120%;
@@ -57,7 +62,7 @@
 	position: relative;
 	left: 200px;
 	margin-right: 500px;
-	bottom: 300px;
+	bottom: 450px;
 	border: 2px solid green;
 	background-image: url("../images/general1.jpg");
 	color: black;
@@ -75,6 +80,8 @@
 	bottom: 250px;
 	background-color: lightblue;
 	height: 150px;
+	text-align: center;
+
 
 
 }
