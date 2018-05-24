@@ -72,6 +72,12 @@ reserveBtn.addEventListener('click', function(){
   item.innerHTML = 'Reservation Complete: '+nameInput.value +' '+ email.value +' '+ number.value + ' '+ reserve.value
   item.class = 'items'
   // document.body.wrapper.appendChild(item)
+  var completed = document.createElement("button")
+  completed.innerHTML = "completed";
+  completed.addEventListener('click', function(){
+    item.remove();
+  })
+  item.appendChild(completed)
   document.body.appendChild(item)
 })
 
