@@ -1,15 +1,15 @@
-.gridWrapper1 {
+.about-gridWrapper1 {
 
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
 	text-align: center;
 	width: 80%;
-	background-image: url("gallerypics/summertimeeating.jpg");
+	background-image: url("../images/summertimeeating.jpg");
 	background-size: 200%
 	/*background-image:;*/
 }
 
-.header1 {
+.about-header1 {
 
 	text-align: center;
 	/*border: 2px solid blue;*/
@@ -24,7 +24,7 @@
 	color: yellow;
 	text-shadow: 2px 2px black; 
 }
-.profile1 {
+.about-profile1 {
 	width: 60%;
 	text-align: left;
 	position: relative;
@@ -37,7 +37,7 @@
 
 }
 
-.profile2 {
+.about-profile2 {
 	width: 60%;
 	text-align: left;
 	border: 2px solid green;
@@ -48,7 +48,7 @@
 	border-radius: 30px;
 }
 
-h2 {
+.about h2 {
 	/*border: 2px solid black;*/
 	width: 20%;
 	border-radius: 30px;
@@ -57,7 +57,7 @@ h2 {
 
 
 
-.profile3 {
+.about-profile3 {
 	width: 60%;
 	text-align: left;
 	border: 2px solid orange;
@@ -69,7 +69,7 @@ h2 {
 
 }
 
-.image1 {
+.about-image1 {
 
 	display: inline;
 	/*border: 2px solid red;*/
@@ -78,7 +78,7 @@ h2 {
 
 
 
-.para1 {
+.about-para1 {
 	
 	border: 2px solid black;
 	border-radius: 20px;
@@ -92,7 +92,7 @@ h2 {
 		
 }
 
-.para2 {
+.about-para2 {
 	
 	border: 2px solid black;
 	border-radius: 20px;
@@ -105,7 +105,7 @@ h2 {
 	height: 250px;
 		
 }
-.para3 {
+.about-para3 {
 	
 	border: 2px solid black;
 	border-radius: 20px;
@@ -119,19 +119,49 @@ h2 {
 		
 }
 
-.para1 p {
+.about-para1 p {
 	text-align: left;
 	font-size: 20px;
 	/*word-break: break-all;*/
 	/*word-wrap: break-word;*/
 }
-.para2 p {
+.about-para2 p {
 	text-align: left;
 	font-size: 20px;
 
 }
-.para3 p {
+.about-para3 p {
 	text-align: left;
 	font-size: 20px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
