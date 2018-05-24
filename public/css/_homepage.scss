@@ -1,0 +1,37 @@
+.wrapper{
+  width: 80%;
+  border: 2px solid;
+  margin: 0 auto;
+}
+
+.motto{
+  text-align: center;
+}
+
+.main-content{
+  border: 2px solid green;
+  // display: inline-block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.reviews{
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid aquamarine;
+}
+
+.reviews a{
+  margin-left: 20px;
+}
+
+#truck{
+  display: inline;
+  margin-left: 20px;
+}
+
+.locations{
+  float: left;
+  border: 2px solid slateblue;
+  margin: 0 10px 0 10px;
+}
