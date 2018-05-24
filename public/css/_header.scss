@@ -1,30 +1,59 @@
+@font-face {
+    font-family: lottalove;
+    src: url(../images/alot-of-love.ttf);
+}
+@font-face {
+    font-family: orangejuice;
+    src: url(../images/orange-juice.ttf);
+}
+@font-face {
+    font-family: snubnose;
+    src: url(../images/snubnose.otf);
+}
+
 #logo{
   max-width: 200px;
   float: left;
   display: block;
-  margin: -10px 10px 10px 30px;
+  margin: 20px 10px 10px 30px;
+
 }
 
 #title{
   // float: left;
   display: inline-block;
   margin-left: -170px;
+  font-family: orangejuice;
+  font-size: 80px;
+}
+
+body{
+  background-image: url("../images/waffle-tile.jpg");
 }
 
 header{
   border: 2px solid pink;
   text-align: center;
-  margin-top: 20px;
+  margin-bottom: -30px;
 }
 
 nav{
   border: 2px solid lightblue;
-  margin-top: 30px;
   text-align: center;
+  padding-right: 10px;
+  background-color: #d2bba0;
+  padding-top: 8px;
+  width: 60%;
+  margin-left: 22%;
+  border-radius: 30px;
 }
 
 nav a{
-  margin-left: -170px;
+  margin: 0 20px;
+  text-decoration: none;
+  font-family: snubnose;
+  font-size: 22px;
+  color: #f7ffe0;
 }
 
 .container{
