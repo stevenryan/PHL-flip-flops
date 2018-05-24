@@ -3,9 +3,9 @@
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
 	text-align: center;
-	width: 80%;
-	/*background-image: url("gallerypics/summertimeeating.jpg");*/
-	background-color: lightyellow;	 
+	width: 100%;
+	background-image: url("../images/wafflebackground.jpg");
+	// background-color: #9f7e69;	 
 }
 
 .gallery-header2 {
@@ -13,13 +13,16 @@
 	text-align: center;
 	/*border: 2px solid blue;*/
 	height: 70px;
-	width: 90%;
+	width: 100%;
 	grid-row-start: 1;
 	grid-row-end: 2;
 	position: relative;
 	text-decoration: underline;
 	font-size: 30px;
+	color: black;
 	/*top: 150px;*/
+	text-shadow: 2px 2px lightgreen;
+
 }
 
 
@@ -28,13 +31,16 @@
 	text-align: left;
 	position: relative;
 	/*height: 100px;*/
-	/*left: 100px;*/
+	left: 200px;
 	margin-right: 500px;
-	bottom: 300px;
+	bottom: 400px;
 	border: 2px solid purple;
 	height: 400px;
 	background-image: url("../images/summertimeeating.jpg");
 	color: black;
+	// box-shadow: 5px 10px lightgreen;
+	border-radius: 30px;
+
 }
 
 .gallery-Event2{
@@ -42,12 +48,13 @@
 	text-align: left;
 	position: relative;
 	/*height: 400px;*/
-	/*left: 300px;*/
+	left: 200px;
 	margin-right: 500px;
-	bottom: 350px;
+	bottom: 500px;
 	border: 2px solid green;
-	background-image: url("./images/gallerypics/sphillycrowd.jpeg");
-	background-size: 70%;
+	background-image: url("../images/phillycrowd.jpg");
+	background-size: 120%;
+	border-radius: 30px;
 
 }
 
@@ -55,12 +62,15 @@
 	width: 70%;
 	text-align: left;
 	position: relative;
-	/*left: 300px;*/
+	left: 200px;
 	margin-right: 500px;
-	bottom: 300px;
+	bottom: 450px;
 	border: 2px solid green;
-	background-image: url("../images/general1.jpg");
+	background-image: url("../images/manayunk.jpg");
 	color: black;
+	border-radius: 30px;
+	background-size: 100%;
+
 	
 
 }
@@ -71,10 +81,12 @@
 	width: 50%;
 /*	display: inline;*/
 	position: relative;
-	left: 300px;
-	bottom: 270px;
-	background-color: lightblue;
+	left: 350px;
+	bottom: 250px;
+	background-color: lightgreen;
 	height: 150px;
+	text-align: center;
+
 
 
 }
@@ -84,9 +96,9 @@
 	border-radius: 20px;
 	width: 50%;
 	position: relative;
-	left: 300px;
-	bottom: 260px;
-	background-color: lightblue;
+	left: 350px;
+	bottom: 250px;
+	background-color: lightgreen;
 }
 
 .gallery-box3 {
@@ -94,13 +106,24 @@
 	border-radius: 20px;
 	width: 50%;
 	position: relative;
-	left: 300px;
-	bottom: 200px;
-	background-color: lightblue;
+	left: 350px;
+	bottom: 180px;
+	background-color: lightgreen;
 }
 
-.gallery h2 {
-	width: 30%;
+.gallery-box1 h2 {
+	width: 90%;
+	text-align: center;
+}
+
+.gallery-box2 h2 {
+	width: 90%;
+	text-align: center;
+}
+
+.gallery-box3 h2 {
+	width: 90%;
+	text-align: center;
 }
 
 .gallery-box1 p {
