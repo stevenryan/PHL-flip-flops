@@ -1,2 +1,2 @@
-gem 'sendgrid-ruby'
 gem 'sinatra'
+gem 'sendgrid-ruby'
