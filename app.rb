@@ -5,11 +5,15 @@ get "/" do
 erb :homepage
 end
 
+get "/homepage" do
+erb :homepage
+end
+
 get "/gallery" do
 erb :gallery
 end
 
-get "/aboutus" do
+get "/about" do
 erb :about
 end
 
