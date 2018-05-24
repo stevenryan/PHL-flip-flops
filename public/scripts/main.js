@@ -1,21 +1,85 @@
 var reserve = document.getElementById('reserve')
-var time = document.getElementsByClassName('t')
-var days = document.getElementsByClassName('d')
-var reserve = document.getElementById('reserve')
 var reserveComplete = document.getElementById('reservecomplete')
 var reserveBtn = document.getElementById('reservebtn')
+var clearBtn = document.getElementById('clearbtn')
+var toDoList = document.getElementById('todolist')
 
-console.log(days[0]);
-console.log(days[0].value);
-console.log(days[0].innerHTML);
-console.log(days);
+var container = document.getElementById('container')
 
-function inputDay(){
-  for (var i = 0; i < days.length; i++) {
-    days[i].addEventListener('click',function(){
-      //   inputDay(i)
-      // console.log(days[i]);
-      // reserve.value += days[i].value+" "
-    })
-  }
-}
+var name = document.getElementById('name')
+var email = document.getElementById('email')
+var number = document.getElementById('number')
+
+var days = document.getElementsByClassName('days')
+var times = document.getElementsByClassName('times')
+
+var mon = document.getElementById('Monday')
+var tue = document.getElementById('Tuesday')
+var wed = document.getElementById('Wednesday')
+var thur = document.getElementById('Thursday')
+var fri = document.getElementById('Friday')
+
+var t1 = document.getElementById('t1')
+var t2 = document.getElementById('t2')
+var t3 = document.getElementById('t3')
+var t4 = document.getElementById('t4')
+var t5 = document.getElementById('t5')
+
+// for (var i = 0; i < days.length; i++) {
+//   days[i].addEventListener('click', function(){
+//     console.log(days[i]);
+//   })
+// }
+mon.addEventListener('click',function(){
+  reserve.value += mon.innerHTML+ " "
+})
+tue.addEventListener('click',function(){
+  reserve.value += tue.innerHTML+ " "
+})
+wed.addEventListener('click',function(){
+  reserve.value += wed.innerHTML+ " "
+})
+thur.addEventListener('click',function(){
+  reserve.value += thur.innerHTML+ " "
+})
+fri.addEventListener('click',function(){
+  reserve.value += fri.innerHTML+ " "
+})
+
+t1.addEventListener('click',function(){
+  reserve.value += t1.innerHTML+ " "
+})
+t2.addEventListener('click',function(){
+  reserve.value += t2.innerHTML+ " "
+})
+t3.addEventListener('click',function(){
+  reserve.value += t3.innerHTML+ " "
+})
+t4.addEventListener('click',function(){
+  reserve.value += t4.innerHTML+ " "
+})
+t5.addEventListener('click',function(){
+  reserve.value += t5.innerHTML+ " "
+})
+
+
+reserveBtn.addEventListener('click', function(){
+  var item = document.createElement('div')
+  item.style.width = '80%'
+  item.style.margin = '0 auto'
+  item.style.borderColor = 'grey'
+  item.style.backgroundColor = 'orange'
+  item.style.padding = '20px'
+  item.style.borderRadius = '25px'
+  item.innerHTML = 'Reservation Complete: '+name.value +' '+ email.value +' '+ number.value + ' '+ reserve.value
+  item.class = 'items'
+  // document.body.wrapper.appendChild(item)
+  document.body.appendChild(item)
+})
+
+clearBtn.addEventListener('click', function(){
+  name.value = ''
+  email.value = ''
+  number.value = ''
+  reserve.value = ''
+})
