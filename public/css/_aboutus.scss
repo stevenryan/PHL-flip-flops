@@ -1,15 +1,15 @@
-.aboutus-gridWrapper1 {
+.about-gridWrapper1 {
 
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
 	text-align: center;
 	width: 80%;
-	background-image: url("gallerypics/summertimeeating.jpg");
+	background-image: url("../images/summertimeeating.jpg");
 	background-size: 200%
 	/*background-image:;*/
 }
 
-.aboutus-header1 {
+.about-header1 {
 
 	text-align: center;
 	/*border: 2px solid blue;*/
@@ -24,7 +24,7 @@
 	color: yellow;
 	text-shadow: 2px 2px black; 
 }
-.aboutus-profile1 {
+.about-profile1 {
 	width: 60%;
 	text-align: left;
 	position: relative;
@@ -37,7 +37,7 @@
 
 }
 
-.aboutus-profile2 {
+.about-profile2 {
 	width: 60%;
 	text-align: left;
 	border: 2px solid green;
@@ -48,7 +48,7 @@
 	border-radius: 30px;
 }
 
-.aboutus h2 {
+.about h2 {
 	/*border: 2px solid black;*/
 	width: 20%;
 	border-radius: 30px;
@@ -57,7 +57,7 @@
 
 
 
-.aboutus-profile3 {
+.about-profile3 {
 	width: 60%;
 	text-align: left;
 	border: 2px solid orange;
@@ -69,7 +69,7 @@
 
 }
 
-.aboutus-image1 {
+.about-image1 {
 
 	display: inline;
 	/*border: 2px solid red;*/
@@ -78,7 +78,7 @@
 
 
 
-.aboutus-para1 {
+.about-para1 {
 	
 	border: 2px solid black;
 	border-radius: 20px;
@@ -92,7 +92,7 @@
 		
 }
 
-.aboutus-para2 {
+.about-para2 {
 	
 	border: 2px solid black;
 	border-radius: 20px;
@@ -105,7 +105,7 @@
 	height: 250px;
 		
 }
-.aboutus-para3 {
+.about-para3 {
 	
 	border: 2px solid black;
 	border-radius: 20px;
@@ -119,18 +119,18 @@
 		
 }
 
-.aboutus-para1 p {
+.about-para1 p {
 	text-align: left;
 	font-size: 20px;
 	/*word-break: break-all;*/
 	/*word-wrap: break-word;*/
 }
-.aboutus-para2 p {
+.about-para2 p {
 	text-align: left;
 	font-size: 20px;
 
 }
-.aboutus-para3 p {
+.about-para3 p {
 	text-align: left;
 	font-size: 20px;
 
