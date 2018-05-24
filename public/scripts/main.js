@@ -66,7 +66,7 @@ t5.addEventListener('click',function(){
 reserveBtn.addEventListener('click', function(){
   var item = document.createElement('div')
   item.style.width = '80%'
-  item.style.margin = '0 auto'
+  item.style.margin = '10px auto'
   item.style.borderColor = 'grey'
   item.style.backgroundColor = 'orange'
   item.style.padding = '20px'
