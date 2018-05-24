@@ -8,3 +8,7 @@ end
 get "/" do
 erb :homepage
 end
+
+get "/contact" do
+erb :contact
+end
