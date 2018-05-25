@@ -8,7 +8,6 @@
   font-size: 25px;
 }
 #t1, #t2, #t3, #t4, #t5 {
-  // border: solid 2px orange;
   font-weight: bold;
   border-radius: 25px;
   display: inline-block;
@@ -17,8 +16,16 @@
   margin-top: 10px;
   font-size: 25px;
 }
-#todolist {
-  border: solid 4px green;
+#emailDiv{
+  text-align: center;
+  margin-bottom: 50px;
+}
+#emailTitle{
+  margin-bottom: 5px;
+}
+#todolist{
+  text-align: center;
+  margin-top: 20px;
 }
 #reserve {
   margin: 10px auto;
