@@ -5,6 +5,7 @@
   display: inline-block;
   background-color: #d2bba0;
   padding: 10px;
+  font-size: 25px;
 }
 #t1, #t2, #t3, #t4, #t5 {
   // border: solid 2px orange;
@@ -14,11 +15,30 @@
   background-color: #9f7e69;
   padding: 10px;
   margin-top: 10px;
+  font-size: 25px;
 }
 #todolist {
   border: solid 4px green;
 }
 #reserve {
   margin: 10px auto;
-  width: 30%;
+  width: 400px;
+  height: 30px;
+  font-size: 20px;
+}
+#nameinput, #email, #number {
+  height: 30px;
+  font-size: 20px;
+}
+#contact-heading {
+  font-size: 40px
+}
+.directions {
+  font-size: 35px
+}
+#reservebtn, #clearbtn {
+  font-weight: bold;
+  background-color: #9f7e69;
+  padding: 5px;
+  font-size: 15px;
 }
