@@ -64,7 +64,7 @@ reserveBtn.addEventListener('click', function(){
   item.style.backgroundColor = 'orange'
   item.style.padding = '20px'
   item.style.borderRadius = '25px'
-  item.innerHTML = 'Reservation Complete: '+nameInput.value +' '+ email.value +' '+ number.value + ' '+ reserve.value
+  item.innerHTML = 'Reservation Made: '+nameInput.value +' '+ email.value +' '+ number.value + ' '+ reserve.value
   item.class = 'items'
   var completed = document.createElement("button")
   completed.innerHTML = "completed";
