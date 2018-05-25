@@ -23,11 +23,6 @@ var t3 = document.getElementById('t3')
 var t4 = document.getElementById('t4')
 var t5 = document.getElementById('t5')
 
-// for (var i = 0; i < days.length; i++) {
-//   days[i].addEventListener('click', function(){
-//     console.log(days[i]);
-//   })
-// }
 mon.addEventListener('click',function(){
   reserve.value += mon.innerHTML+ " "
 })
@@ -71,7 +66,6 @@ reserveBtn.addEventListener('click', function(){
   item.style.borderRadius = '25px'
   item.innerHTML = 'Reservation Complete: '+nameInput.value +' '+ email.value +' '+ number.value + ' '+ reserve.value
   item.class = 'items'
-  // document.body.wrapper.appendChild(item)
   var completed = document.createElement("button")
   completed.innerHTML = "completed";
   completed.addEventListener('click', function(){
