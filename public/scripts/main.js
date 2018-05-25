@@ -60,8 +60,7 @@ reserveBtn.addEventListener('click', function(){
   var item = document.createElement('div')
   item.style.width = '80%'
   item.style.margin = '10px auto'
-  item.style.borderColor = 'grey'
-  item.style.backgroundColor = 'orange'
+  item.style.backgroundColor = '#d2bba0'
   item.style.padding = '20px'
   item.style.borderRadius = '25px'
   item.innerHTML = 'Reservation Made: '+nameInput.value +' '+ email.value +' '+ number.value + ' '+ reserve.value
