@@ -1,27 +1,36 @@
 .wrapper{
   width: 80%;
-  border: 2px solid;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: rgba(242, 239, 199, 0.7)
+  background-color: rgba(242, 239, 199, 0.7);
+  border-radius: 20px;
+  padding-bottom: 10px;
 }
 
 .motto{
   text-align: center;
+  font-family: snubnose;
+  font-size: 24px;
+}
+
+.motto2{
+  text-align: center;
+  font-family: snubnose;
+  font-size: 18px;
 }
 
 .main-content{
-  border: 2px solid green;
-  // display: inline-block;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
 .reviews{
-  width: 80%;
-  margin: 0 auto;
-  border: 2px solid aquamarine;
+  width: 85%;
+  margin: 0 auto 10px auto;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f6f6f6;
 }
 
 .reviews a{
@@ -31,10 +40,13 @@
 #truck{
   display: inline;
   margin-left: 20px;
+  border-radius: 10px;
 }
 
 .locations{
   float: left;
-  border: 2px solid slateblue;
-  margin: 0 10px 0 10px;
+  margin: 0 10px 0 30px;
+  padding: 0 30px 13px 0;
+  background-color: #f6f6f6;
+  border-radius: 10px;
 }
