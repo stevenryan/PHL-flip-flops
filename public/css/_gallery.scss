@@ -21,7 +21,7 @@
 	font-size: 30px;
 	color: black;
 	/*top: 150px;*/
-	text-shadow: 2px 2px lightgreen;
+	text-shadow: 2px 2px lightyellow;
 
 }
 
@@ -55,6 +55,7 @@
 	background-image: url("../images/phillycrowd.jpg");
 	background-size: 120%;
 	border-radius: 30px;
+	height: 550px;
 
 }
 
@@ -76,39 +77,46 @@
 }
 
 .gallery-box1 {
-	border: 2px solid black;
+	// border: 2px solid black;
 	border-radius: 20px;
 	width: 50%;
 /*	display: inline;*/
 	position: relative;
 	left: 350px;
 	bottom: 250px;
-	background-color: lightgreen;
+	background-color: lightyellow;
 	height: 150px;
 	text-align: center;
+	opacity: 0.8;
 
 
 
 }
 
 .gallery-box2 {
-	border: 2px solid red;
+	// border: 2px solid red;
 	border-radius: 20px;
 	width: 50%;
 	position: relative;
 	left: 350px;
 	bottom: 250px;
-	background-color: lightgreen;
+	background-color: lightyellow;
+	text-align: center;
+	opacity: 0.8;
+
 }
 
 .gallery-box3 {
-	border: 2px solid green;
+	// border: 2px solid green;
 	border-radius: 20px;
 	width: 50%;
 	position: relative;
 	left: 350px;
 	bottom: 180px;
-	background-color: lightgreen;
+	background-color: lightyellow;
+	text-align: center;
+	opacity: 0.8;
+
 }
 
 .gallery-box1 h2 {
