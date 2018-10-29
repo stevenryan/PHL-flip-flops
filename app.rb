@@ -26,7 +26,7 @@ get "/contact" do
 erb :contact
 end
 
-get "/sendEmail" do
+post "/sendEmail" do
   @email = params[:email]
   @subject = params[:subject]
   @content = params[:content]
